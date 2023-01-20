@@ -1,0 +1,78 @@
+
+.ribbon {
+  background-color: rgba(170, 0, 0, 0.5);
+  left: -3.5em;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+  width: 15em;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0.75;
+
+}
+
+/* ==========================================================================
+Navbar styles
+========================================================================== */
+.navbar-brand {
+  overflow: hidden;
+}
+
+.jh-navbar .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-version {
+  font-size: 10px;
+  color: #bbb;
+  padding: 0 0 0 10px;
+}
+
+.brand-icon{
+    height: 35px;
+    width: auto;
+    display: inline-block;
+  }
+
+.brand-title {
+  font-size: 24px;
+  color: #fff;
+}
+.user-profile-title {
+  font-size: 14px;
+  color: #fff;
+}
+
+.app-header{
+  background-color: #032541;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-photo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.brand-photo{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-custom{
+  display: flex;
+}
+.wrapper-container{
+  width: 150px;
+  height: 225px;
+  padding: 5%;
+}

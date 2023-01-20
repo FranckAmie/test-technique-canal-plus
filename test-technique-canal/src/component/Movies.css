@@ -1,0 +1,34 @@
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .tag-genre{
+    background: none;
+    padding-top: 10px;
+    padding-right: 7px;
+    font-size: smaller;
+}
+.release_date{
+    font-size: small;
+}
+
+.tag-genre:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+.tag-genre:hover::after {
+    border-left-color: darkgrey;
+}
+.header_info{
+    margin-bottom: 20px;
+}
+.production_companies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.style_1 {
+    flex: 1 0 21%; /* explanation below */
+    margin: 10px;
+}
